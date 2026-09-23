@@ -1,9 +1,9 @@
-import { SqliteOvaDataSource } from "@/infrastructure/datasources/sqlite-ova.datasource";
 import { envs } from "../../config/plugins/envs.plugin";
 import { ScanFolder } from "../../domain/use-cases/scan-folders/scan-folder";
 import { TakeScreenShot } from "../../domain/use-cases/take-screenshot/take-screenshot";
 import { OvaRepositoryImpl } from "../../infrastructure/repositories/ova.repositories.impl";
 import { EmailService } from "../../infrastructure/services/email.service";
+import { SqliteOvaDataSource } from "../../infrastructure/datasources/sqlite-ova.datasource";
 import { PuppeteerScreenShotService } from '../../infrastructure/services/puppeteer-screenshot.service';
 
 
